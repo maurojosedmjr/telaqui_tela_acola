@@ -27,7 +27,6 @@ class Departamentos(Resource):
 
         return [dept.to_json() for dept in lista_de_departamentos], status_code
 
-
     # @blueprint_departamento.route("/departamentos/cadastrar", methods=["POST"])
     @ns_dept.doc("insere departamento")
     @ns_dept.expect(departamento)

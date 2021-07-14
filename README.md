@@ -1,6 +1,11 @@
 
+Rodando Docker:
+```shell
+make build
+make run
+```
 
-Rodando local:
+Rodando local-Dev:
 ```shell
 export FLASK_APP=app
 export FLASK_ENV=Development
